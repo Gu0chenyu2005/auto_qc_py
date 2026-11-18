@@ -1,0 +1,30 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# ---- Tooling caches ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- Editor / OS ----
+.idea/
+.vscode/
+.DS_Store
+
+# ---- Local QC data (keep the dirs, ignore their contents) ----
+record/*
+pending/*
+passed/*
+json/*
+!record/.gitkeep
+!pending/.gitkeep
+!passed/.gitkeep
+!json/.gitkeep
